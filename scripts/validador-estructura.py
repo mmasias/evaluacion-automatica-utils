@@ -10,7 +10,7 @@ def cargar_configuracion(asignatura, repo_config):
     
     # Descargar config desde el repo central
     import urllib.request
-    config_url = f"https://raw.githubusercontent.com/TU_USUARIO/evaluacion-automatica-utils/main/{config_path}"
+    config_url = f"https://raw.githubusercontent.com/mmasias/evaluacion-automatica-utils/main/{config_path}"
     
     with urllib.request.urlopen(config_url) as response:
         criterios_base = json.loads(response.read().decode())
