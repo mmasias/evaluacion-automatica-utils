@@ -1,0 +1,25 @@
+{
+    "asignatura": "EDA1",
+    "carpetas_requeridas": [
+        "src",
+        "documents",
+        "images",
+        "modelosUML",
+        "tests"
+    ],
+    "archivos_requeridos": [
+        "README.md",
+        "src/Main.java"
+    ],
+    "patrones_nomenclatura": {
+        "src/**/*.java": "Archivos Java organizados en paquetes",
+        "modelosUML/*.puml": "Diagramas UML",
+        "tests/**/*Test.java": "Tests unitarios"
+    },
+    "validaciones_adicionales": [
+        "compilacion_java",
+        "validacion_oop",
+        "validacion_estructuras_datos",
+        "ejecucion_tests"
+    ]
+}

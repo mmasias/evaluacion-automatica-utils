@@ -1,0 +1,23 @@
+{
+    "asignatura": "PRG2",
+    "carpetas_requeridas": [
+        "src",
+        "documents",
+        "images",
+        "modelosUML"
+    ],
+    "archivos_requeridos": [
+        "README.md",
+        "src/Main.java"
+    ],
+    "patrones_nomenclatura": {
+        "src/**/*.java": "Archivos Java organizados en paquetes",
+        "modelosUML/*.puml": "Diagramas UML en formato PlantUML",
+        "images/*.svg": "Diagramas exportados en formato SVG"
+    },
+    "validaciones_adicionales": [
+        "compilacion_java",
+        "validacion_oop",
+        "generacion_plantuml"
+    ]
+}

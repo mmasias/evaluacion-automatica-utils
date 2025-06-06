@@ -1,0 +1,19 @@
+{
+    "asignatura": "PRG1",
+    "carpetas_requeridas": [
+        "src",
+        "documents",
+        "images"
+    ],
+    "archivos_requeridos": [
+        "README.md",
+        "src/Main.java"
+    ],
+    "patrones_nomenclatura": {
+        "src/*.java": "Archivos Java en carpeta src",
+        "README.md": "Archivo README principal"
+    },
+    "validaciones_adicionales": [
+        "compilacion_java"
+    ]
+}
